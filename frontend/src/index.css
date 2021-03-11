@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ecf0f1;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn-login {
+  background-color: #2196F3;
+  color: #FAFAFA;
+  height: 40%;
+}
+
+.btn-login:hover {
+  color: #212121ed;
+}

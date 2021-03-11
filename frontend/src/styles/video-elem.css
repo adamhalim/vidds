@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono:wght@200;400&family=Space+Mono&display=swap');
+
+.video-block {
+  padding: 0.5rem;
+}
+.video-block p {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
+}
+.video-block a {
+  word-wrap: break-word;
+  color: #1976D2;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.7em;
+}
+
+.btn-video a {
+  color: #2E7D32;
+}
+
+.video-thumbnail:hover {
+  cursor:pointer;
+}
+
+.video-elem {
+    font-family: monospace;
+    margin: 1rem;
+    background-color: #F5F5F5;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+  
+  .video-elem img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+  }

@@ -1,0 +1,33 @@
+.videoplayer-background {
+    background:rgba(0, 0, 0, 0.8);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .videoplayer {
+    /* Shoutout to stack overflow*/
+    /* https://stackoverflow.com/questions/8508275/how-to-center-a-position-absolute-element */
+    position: absolute;
+    top: 50%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    transform: translate(-50%, -50%); /* This is a shorthand of translateX(-50%) and translateY(-50%) */
+  }
+  
+  .videoplayer-background a {
+      color: #F5F5F5;
+      font-size: 3rem;
+      font-family: monospace;
+      text-decoration: none;
+      position: absolute;
+      right: 1em;
+      top: 1.5em;
+      z-index: 1;
+  }
+
+  .videoplayer-background a:hover {
+      opacity: 0.5;
+  }
+
+  
